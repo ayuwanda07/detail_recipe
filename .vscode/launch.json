@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_lagi",
+            "cwd": "$Recycle.Bin\\S-1-5-21-4046292086-1200250010-2496053575-1001\\$RKAQ56F\\flutter_lagi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_lagi (profile mode)",
+            "cwd": "$Recycle.Bin\\S-1-5-21-4046292086-1200250010-2496053575-1001\\$RKAQ56F\\flutter_lagi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_lagi (release mode)",
+            "cwd": "$Recycle.Bin\\S-1-5-21-4046292086-1200250010-2496053575-1001\\$RKAQ56F\\flutter_lagi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

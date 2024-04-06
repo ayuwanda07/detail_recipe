@@ -1,7 +1,7 @@
-import 'package:detail_recipe/pages/detail_view.dart';
-import 'package:detail_recipe/pages/nutrition_view.dart';
+import 'package:detail_recipe/screens/guest/ingredients_view.dart';
+import 'package:detail_recipe/screens/guest/nutrition_view.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:detail_recipe/screens/guest/detail_view.dart';
 
 class RecipePage extends StatefulWidget {
   const RecipePage({Key? key}) : super(key: key);
@@ -84,7 +84,7 @@ class _RecipePageState extends State<RecipePage> with SingleTickerProviderStateM
                 // Nutrition Tab
                 NutritionView(),
                 // Details Tab
-               RecipeDetailsPage(),
+                DetailView(),
               ],
             ),
           ),
